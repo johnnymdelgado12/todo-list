@@ -1,5 +1,5 @@
 johnnydlgdo\com\config\WebConfig.class
 johnnydlgdo\com\controller\DemoController.class
 johnnydlgdo\com\service\DemoService.class
-johnnydlgdo\com\config\WellAppInitializer.class
+johnnydlgdo\com\config\WebAppInitializer.class
 johnnydlgdo\com\service\DemoServiceImpl.class
