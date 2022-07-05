@@ -3,8 +3,10 @@ C:\GitHub\JavaProjects\todo-list\src\main\java\johnnydlgdo\com\service\DemoServi
 C:\GitHub\JavaProjects\todo-list\src\main\java\johnnydlgdo\com\controller\DemoController.java
 C:\GitHub\JavaProjects\todo-list\src\main\java\johnnydlgdo\com\config\WebAppInitializer.java
 C:\GitHub\JavaProjects\todo-list\src\main\java\johnnydlgdo\com\config\WebConfig.java
-C:\GitHub\JavaProjects\todo-list\src\main\java\johnnydlgdo\com\model\ToDoItem.java
+C:\GitHub\JavaProjects\todo-list\src\main\java\johnnydlgdo\com\model\TodoItem.java
 C:\GitHub\JavaProjects\todo-list\src\main\java\johnnydlgdo\com\controller\TodoItemController.java
 C:\GitHub\JavaProjects\todo-list\src\main\java\johnnydlgdo\com\service\DemoService.java
 C:\GitHub\JavaProjects\todo-list\src\main\java\johnnydlgdo\com\util\Mappings.java
+C:\GitHub\JavaProjects\todo-list\src\main\java\johnnydlgdo\com\service\TodoItemService.java
+C:\GitHub\JavaProjects\todo-list\src\main\java\johnnydlgdo\com\service\TodoItemServiceImpl.java
 C:\GitHub\JavaProjects\todo-list\src\main\java\johnnydlgdo\com\util\ViewNames.java

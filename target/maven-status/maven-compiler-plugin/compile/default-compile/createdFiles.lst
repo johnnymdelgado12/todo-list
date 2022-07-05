@@ -1,10 +1,12 @@
 johnnydlgdo\com\config\WebConfig.class
+johnnydlgdo\com\service\TodoItemService.class
 johnnydlgdo\com\service\DemoService.class
-johnnydlgdo\com\util\ViewNames.class
 johnnydlgdo\com\model\TodoData.class
-johnnydlgdo\com\model\ToDoItem.class
+johnnydlgdo\com\controller\TodoItemController.class
+johnnydlgdo\com\model\TodoItem.class
+johnnydlgdo\com\service\TodoItemServiceImpl.class
+johnnydlgdo\com\util\ViewNames.class
 johnnydlgdo\com\service\DemoServiceImpl.class
 johnnydlgdo\com\controller\DemoController.class
 johnnydlgdo\com\util\Mappings.class
-johnnydlgdo\com\controller\TodoItemController.class
 johnnydlgdo\com\config\WebAppInitializer.class
