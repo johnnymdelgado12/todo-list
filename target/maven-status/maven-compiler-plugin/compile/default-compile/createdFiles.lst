@@ -1,6 +1,7 @@
 johnnydlgdo\com\config\WebConfig.class
 johnnydlgdo\com\service\TodoItemService.class
 johnnydlgdo\com\service\DemoService.class
+johnnydlgdo\com\util\AttributeNames.class
 johnnydlgdo\com\model\TodoData.class
 johnnydlgdo\com\controller\TodoItemController.class
 johnnydlgdo\com\model\TodoItem.class

@@ -19,10 +19,10 @@ public class TodoData {
 
     public TodoData() {
         //== adding dummy data using the addItem() method so it sets the id field
-        addItem(new TodoItem(1,"first", "first details", LocalDate.now()));
-        addItem(new TodoItem(2,"second", "second details", LocalDate.now()));
-        addItem(new TodoItem(3,"third", "third details", LocalDate.now()));
-        addItem(new TodoItem(4,"fourth", "fourth details", LocalDate.now()));
+        addItem(new TodoItem("first", "first details", LocalDate.now()));
+        addItem(new TodoItem("second", "second details", LocalDate.now()));
+        addItem(new TodoItem("third", "third details", LocalDate.now()));
+        addItem(new TodoItem("fourth", "fourth details", LocalDate.now()));
     }
 
     // == public methods ==
