@@ -30,6 +30,8 @@
                     </tr>
                 </c:forEach>
             </table>
+            <c:url var="homeUrl" value="${Mappings.HOME}"/>
+            <h3><a href="${homeUrl}">Home</a></h3>
         </div>
     </body>
 </html>

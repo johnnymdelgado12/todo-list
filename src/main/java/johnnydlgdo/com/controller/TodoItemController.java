@@ -42,6 +42,11 @@ public class TodoItemController {
         return ViewNames.ITEMS_LIST;
     }
 
+    @GetMapping(Mappings.HOME)
+    public String home() {
+        return ViewNames.HOME;
+    }
+
     @GetMapping(Mappings.ADD_ITEM)
     public String addEditItem(Model model) {
         TodoItem todoItem = new TodoItem("", "", LocalDate.now());
