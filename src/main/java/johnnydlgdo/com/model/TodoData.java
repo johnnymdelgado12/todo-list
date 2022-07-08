@@ -11,7 +11,7 @@ import java.util.ListIterator;
 public class TodoData {
 
     // == fields ==
-    private static int idValue;
+    private static int idValue = 1;
 
     private final List<TodoItem> items = new ArrayList<>();
 
