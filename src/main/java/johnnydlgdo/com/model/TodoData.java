@@ -36,18 +36,12 @@ public class TodoData {
         idValue++;
     }
 
-    public void removeItem(int id){
-        ListIterator<TodoItem> itemIterator = items.listIterator();
 
-        while(itemIterator.hasNext()) {
-            TodoItem item = itemIterator.next();
-
-            if (item.getId() == id) {
-                itemIterator.remove();
-                break;
-            }
-        }
+    public void removeItem(int id) {
+        int position = id - 1;
+        items.remove(position);
     }
+
 
     public TodoItem getItem(int id) {
         for (TodoItem item : items) {
@@ -58,16 +52,8 @@ public class TodoData {
         return null;
     }
 
-    public void updateItem(@NonNull TodoItem toUpdate) {
-        ListIterator<TodoItem> itemIterator = items.listIterator();
-
-        while(itemIterator.hasNext()){
-            TodoItem item = itemIterator.next();
-
-            if(item.equals(toUpdate)) {
-                itemIterator.set(toUpdate);
-                break;
-            }
-        }
+    public void updateItem(int id, TodoItem toUpdate) {
+        int position = id - 1;
+        items.set(position, toUpdate);
     }
 }

@@ -10,7 +10,7 @@ public interface TodoItemService {
 
     TodoItem getItem(int id);
 
-    void updateItem(TodoItem toUpdate);
+    void updateItem(int id, TodoItem toUpdate);
 
     TodoData getData();
 }

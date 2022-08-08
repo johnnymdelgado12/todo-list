@@ -66,7 +66,7 @@ public class TodoItemController {
         if (todoItem.getId() == 0){
             todoItemService.addItem(todoItem);
         } else {
-            todoItemService.updateItem(todoItem);
+            todoItemService.updateItem(todoItem.getId(), todoItem);
         }
         return "redirect:/" + Mappings.ITEMS;
     }

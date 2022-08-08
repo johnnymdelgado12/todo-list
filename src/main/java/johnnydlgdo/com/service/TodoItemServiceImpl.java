@@ -29,8 +29,8 @@ public class TodoItemServiceImpl implements TodoItemService{
     }
 
     @Override
-    public void updateItem(TodoItem toUpdate) {
-        data.updateItem(toUpdate);
+    public void updateItem(int id, TodoItem toUpdate) {
+        data.updateItem(id, toUpdate);
     }
 }
 
